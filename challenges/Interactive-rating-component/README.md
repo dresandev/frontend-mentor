@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/Interactive-rating-component](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/Interactive-rating-component)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/Interactive-rating-component/](https://javiandres016.github.io/frontend-mentor/challenges/Interactive-rating-component/)
 
 ## My process
 

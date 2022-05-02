@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: [](https://your-live-site-url.com)
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/advice-generator-app-main](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/advice-generator-app-main)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/advice-generator-app-main/](https://javiandres016.github.io/frontend-mentor/challenges/advice-generator-app-main/)
 
 ## My process
 
