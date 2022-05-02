@@ -90,6 +90,9 @@ body {
   transform: translateY(100%);
   cursor: pointer;
 }
+.change-quote-btn:focus {
+  outline: none;
+}
 .change-quote-btn:active {
   box-shadow: 0px 0px 30px 10px rgba(82, 255, 168, 0.5), inset 0px 0px 50px 50px rgba(82, 255, 168, 0.14);
 }
@@ -114,7 +117,7 @@ body {
 .spinner-container {
   display: flex;
   align-items: center;
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 @media screen and (max-width: 768px) {

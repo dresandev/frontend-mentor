@@ -8,10 +8,7 @@ const changeQuoteBtn = $('.change-quote-btn')
 
 
 window.onload = () => {
-  changeQuoteBtn.addEventListener('click', e => {
-    e.target.blur()
-    showAdvice()
-  })
+  changeQuoteBtn.addEventListener('click', e => showAdvice())
   showAdvice()
 }
 
