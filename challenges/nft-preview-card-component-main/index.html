@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Frontend Mentor | NFT preview card component</title>
+</head>
+
+<body>
+
+  <main class="nft-card">
+    <h1 class="sr-only">NFT Preview Card</h1>
+
+    <a href="#" aria-label="show-nft">
+      <div class="nft-card__image" aria-label="nft image">
+        <div class="image__hover-effect"></div>
+      </div>
+    </a>
+
+    <a href="#" class="nft-card__name">Equilibrium #3429</a>
+    <p class="nft-card__description">Our Equilibrium collection promotes balance and calm.</p>
+
+    <div class="nft-card__data">
+      <span class="data__price">
+        <svg width="11" height="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"
+            fill="#00FFF8" />
+        </svg>
+        <p>0.041 ETH</p>
+      </span>
+
+      <span class="data__publication-date">
+        <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"
+            fill="#8BACD9" />
+        </svg>
+        <p>3 days left</p>
+      </span>
+    </div>
+
+    <div class="nft-card__line-decoration"></div>
+
+    <div class="nft-card__author-info">
+      <img src="assets/images/image-avatar.png" alt="image-avatar" class="author-info__avatar">
+      <p class="author-info__name">Creation of <a href="#">Jules Wyvern</a></p>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/javiandres016" target="_blank">javiandres016</a>.
+  </footer>
+</body>
+
+</html>
