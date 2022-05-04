@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+  --very-dark-blue: #090b1a;
+  --dark-desaturated-blue: #1b1938;
+  --soft-violet-accent: #aa5cdb;
+  --white: #ffffff;
+  --slightly-transparent-mp: #ffffffbf;
+  --Slightly-transparent-white-sh: #ffffff99;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  box-sizing: inherit;
+  background-color: var(--very-dark-blue);
+  height: 97vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  background-color: var(--dark-desaturated-blue);
+  border-radius: 1rem;
+  max-width: 105rem;
+  min-width: 34rem;
+  margin: 3rem;
+}
+
+.card__content {
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 50%;
+  padding: 4rem 6rem;
+}
+
+.content__title,
+.stats__heading {
+  font-weight: 700;
+  color: var(--white);
+}
+
+.content__title {
+  font-size: 3.5rem;
+}
+.content__title span {
+  color: var(--soft-violet-accent);
+}
+
+.content__description {
+  color: var(--slightly-transparent-mp);
+  line-height: 2.3rem;
+  margin-right: 4.9rem;
+  margin-bottom: 5rem;
+}
+
+.card__image-container {
+  flex-grow: 1;
+  flex-basis: 50%;
+  background-color: var(--soft-violet-accent);
+  border-radius: 0 1rem 1rem 0;
+}
+
+.image-container__image-header {
+  height: 100%;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+}
+
+.content__stats {
+  display: flex;
+  column-gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+.stats__heading {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+.stats__paragraph {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.3rem;
+  color: var(--Slightly-transparent-white-sh);
+}
+
+.attribution {
+  margin: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--white);
+}
+.attribution a {
+  color: inherit;
+}
+.attribution a:hover {
+  color: var(--soft-violet-accent);
+  transition: color 0.3s ease-in;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    height: auto;
+  }
+  .card {
+    flex-direction: column;
+    max-width: 40rem;
+  }
+  .card__content {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 0 3rem;
+    order: 2;
+  }
+
+  .content__description {
+    text-align: center;
+    margin: 1rem 1rem;
+  }
+
+  .card__image-container {
+    border-radius: 1rem 1rem 0 0;
+    order: 1;
+  }
+  .image-container__image-header {
+    object-fit: cover;
+  }
+
+  .content__stats {
+    flex-direction: column;
+  }
+}
