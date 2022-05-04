@@ -60,6 +60,7 @@ button {
 
 .card__title {
   color: var(--dark-blue);
+  margin: 4rem 0;
 }
 
 .card__paragraph {
@@ -69,7 +70,7 @@ button {
 
 .card__data-container {
   position: relative;
-  margin: 0 3rem 2rem 3rem;
+  margin: 0 3rem 4rem 3rem;
   padding: 1rem 2rem;
   display: flex;
   align-items: center;
@@ -103,7 +104,7 @@ button {
 
 .card__payment-btn {
   display: block;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 3rem auto;
   width: calc(100% - 6rem);
   border: none;
   border-radius: 1rem;
@@ -117,7 +118,6 @@ button {
 .card__cancel-btn {
   display: block;
   border: none;
-  margin: 0 auto;
   cursor: pointer;
   margin: 0 auto 3rem auto;
   color: var(--desaturated-blue);
