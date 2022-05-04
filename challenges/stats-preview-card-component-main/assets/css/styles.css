@@ -82,6 +82,7 @@ body {
   height: 100%;
   opacity: 0.8;
   mix-blend-mode: multiply;
+  vertical-align: middle;
 }
 
 .content__stats {
@@ -139,9 +140,6 @@ body {
   .card__image-container {
     border-radius: 1rem 1rem 0 0;
     order: 1;
-  }
-  .image-container__image-header {
-    object-fit: cover;
   }
 
   .content__stats {
