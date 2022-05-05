@@ -70,6 +70,8 @@ body {
 }
 
 .profile__name-age {
+  letter-spacing: 0.1rem;
+  font-size: 2rem;
   margin-top: 3rem;
   margin-bottom: 0.5rem;
 }
