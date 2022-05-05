@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+  --dark-cyan: #19a2ae;
+  --very-dark-desaturated-blue: #2d3248;
+  --dark-grayish-blue: #6a6f81;
+  --dark-gray: #969696;
+  --white: #fff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 97vh;
+  font-size: 1.8rem;
+  box-sizing: inherit;
+  font-family: 'Kumbh Sans', sans-serif;
+  background: url(../images/bg-pattern-top.svg) no-repeat, url(../images/bg-pattern-bottom.svg) no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background-color: var(--dark-cyan);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sr-only {
+  overflow: hidden;
+  width: 0.1rem;
+  font-size: 0.1rem;
+  position: absolute;
+  left: -1rem;
+}
+
+.profile {
+  width: 40rem;
+  background-image: url(../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: var(--white);
+  border-radius: 1.5rem;
+  text-align: center;
+  color: var(--dark-grayish-blue);
+}
+
+.profile__img-container {
+  width: 11.5rem;
+  height: 11.5rem;
+  padding: 0.5rem;
+  background-color: var(--white);
+  margin: 10.5rem auto 0 auto;
+  border-radius: 50%;
+}
+.profile__img {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+}
+
+.profile__name-age {
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+.profile__name-age span,
+.stats__amount {
+  color: var(--very-dark-desaturated-blue);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stats__caption {
+  margin-top: 0;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+
+.profile__city {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.profile__stats {
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+  border-top: 0.5pt solid #6a6f819a;
+  padding: 1.4rem;
+}
+
+.attribution {
+  margin: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.attribution a {
+  color: inherit;
+}
+.attribution a:hover {
+  color: var(--white);
+  transition: color 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    width: 34rem;
+  }
+  .profile__img-container {
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+  .profile__img {
+    height: auto;
+    width: auto;
+  }
+}
