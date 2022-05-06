@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/faq-accordion-card-main](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/faq-accordion-card-main)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/faq-accordion-card-main/](https://javiandres016.github.io/frontend-mentor/challenges/faq-accordion-card-main/)
 
 ## My process
 
