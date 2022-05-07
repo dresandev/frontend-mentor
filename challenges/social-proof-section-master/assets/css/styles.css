@@ -36,7 +36,7 @@ main {
   max-width: 106rem;
   margin: 0 auto;
   padding: 0 3rem;
-  padding-top: 7rem;
+  padding-top: 8rem;
   min-height: 100vh;
 }
 
@@ -52,6 +52,7 @@ main {
   color: var(--very-dark-magenta);
 }
 .info__desc {
+  line-height: 2.5rem;
   width: 45rem;
   color: var(--dark-grayish-magenta);
 }
