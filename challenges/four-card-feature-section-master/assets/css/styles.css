@@ -74,7 +74,8 @@ main {
 }
 
 .header__desc {
-  margin: 5rem 0;
+  margin: 3rem 0 5rem 0;
+  line-height: 2.5rem;
 }
 
 .features {
@@ -112,6 +113,7 @@ main {
 }
 
 .card__icon {
+  margin-top: 4rem;
   float: right;
 }
 
@@ -154,6 +156,10 @@ main {
     grid-row: auto;
     grid-column: auto;
     align-self: auto;
+  }
+
+  .card__icon {
+    margin-top: 0rem;
   }
 }
 
