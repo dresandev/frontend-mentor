@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/article-preview-component-master](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/article-preview-component-master)
-- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/article-preview-component-master/](https://javiandres016.github.io/frontend-mentor/challenges/article-preview-component-master/)
+  - Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/article-preview-component-master/](https://javiandres016.github.io/frontend-mentor/challenges/article-preview-component-master/)
 
 ## My process
 
