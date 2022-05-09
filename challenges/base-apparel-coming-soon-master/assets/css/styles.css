@@ -29,7 +29,7 @@ body {
 
 .main {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1.4fr 1fr;
 }
 
 .sr-only {
@@ -45,20 +45,20 @@ body {
   background: url(../images/bg-pattern-desktop.svg), linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 20rem 13rem 0 13.5rem;
+  padding: 20rem 13rem 0 15rem;
 }
 
 .header__logo {
   position: absolute;
   top: 8rem;
-  left: 13rem;
+  left: 15rem;
 }
 
 .content__title {
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 1rem;
-  font-size: 7rem;
+  font-size: 6.5rem;
   color: var(--dark-grayish-red);
 }
 .content__title span {
