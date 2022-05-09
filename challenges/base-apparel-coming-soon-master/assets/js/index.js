@@ -42,7 +42,7 @@ function onSuccess() {
 
   const successMessage = $$('p')
   successMessage.classList.add('form__message-success')
-  successMessage.textContent = 'thank you, your email was sent successfully'
+  successMessage.textContent = 'thank you for your subscription!'
   form.appendChild(successMessage)
 
   setTimeout(() => $('.form__message-success').remove(), 4000);
