@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/single-price-grid-component-master](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/single-price-grid-component-master)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/single-price-grid-component-master/](https://javiandres016.github.io/frontend-mentor/challenges/single-price-grid-component-master/)
 
 ## My process
 
