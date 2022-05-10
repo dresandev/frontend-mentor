@@ -30,17 +30,20 @@ body {
   text-align: center;
 }
 
-.main {
+.main__container {
   padding: 2rem;
   margin: 0 auto;
   max-width: 120rem;
   min-width: 37rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 
-.main__card {
+.container__card {
+  flex-basis: 30rem;
+  margin-bottom: 2rem;
   height: max-content;
   text-align: center;
   border-radius: 1rem;
@@ -53,34 +56,4 @@ body {
   padding: 1.5rem;
   color: azure;
   transition: color 0.3s ease-in;
-}
-
-@media (hover: hover) {
-  .card__name:hover {
-    color: rgb(175, 173, 173);
-  }
-}
-.card__name:active {
-  color: rgb(175, 173, 173);
-}
-.card__name:focus {
-  outline: none;
-}
-
-@media screen and (max-width: 1064px) {
-  .main__title {
-    grid-column: 1/3;
-  }
-  .main {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .main__title {
-    grid-column: 1/2;
-  }
-  .main {
-    grid-template-columns: 1fr;
-  }
 }

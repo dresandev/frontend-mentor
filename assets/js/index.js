@@ -3,7 +3,7 @@ const solutionsData = await(await fetch('assets/data/solutions.json')).json()
 const $ = selector => document.querySelector(selector)
 const $$ = tagName => document.createElement(tagName)
 
-const main = $('.main')
+const main = $('.main__container')
 
 solutionsData.forEach(createProjectCard)
 
@@ -11,7 +11,7 @@ function createProjectCard(solution) {
   const solutionName = solution.title.split('-').join(' ')
 
   const mainCard = $$('div')
-  mainCard.classList.add('main__card')
+  mainCard.classList.add('container__card')
 
   const cardImg = $$('img')
   cardImg.classList.add('card__img')
