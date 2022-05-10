@@ -42,7 +42,7 @@ body {
 }
 
 .container__card {
-  flex-basis: 30rem;
+  flex: 1 1 30rem;
   margin-bottom: 2rem;
   height: max-content;
   text-align: center;
