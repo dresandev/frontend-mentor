@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/ping-coming-soon-page-master](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/ping-coming-soon-page-master)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/ping-coming-soon-page-master/](https://javiandres016.github.io/frontend-mentor/challenges/ping-coming-soon-page-master/)
 
 ## My process
 
