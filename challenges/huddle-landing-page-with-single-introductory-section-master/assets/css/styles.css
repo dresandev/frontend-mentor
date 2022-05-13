@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  --violet: #674baf;
+  --soft-magenta: #e882e8;
+  --light-grey: #d6d5d5;
+  --white: #fff;
+  --color-transition: all 0.2s ease-in;
+}
+
+.body {
+  margin: 0 auto;
+  padding: 4rem 4rem 0 4rem;
+  max-width: 50rem;
+  min-height: 100vh;
+  background-color: var(--violet);
+  background-image: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header__logo {
+  width: 15rem;
+  margin-bottom: 5rem;
+}
+
+.body__main {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 8rem;
+}
+.main__mockups {
+  margin-bottom: 5rem;
+}
+.content__title {
+  line-height: 3.5rem;
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+.content__desc {
+  line-height: 2.5rem;
+  color: var(--light-grey);
+}
+.content__register-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 1.5rem;
+  width: 70%;
+  border: none;
+  border-radius: 3rem;
+  color: var(--violet);
+  background-color: var(--white);
+  text-align: center;
+  box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.199);
+}
+
+.footer {
+  width: max-content;
+  margin: 0 auto 4rem auto;
+}
+.footer__link {
+  display: inline-block;
+  position: relative;
+  padding: 1.8rem;
+  margin: 0 0.5rem;
+  border: 0.2rem solid var(--white);
+  border-radius: 50%;
+}
+
+.link__icon {
+  fill: var(--white);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 2rem;
+}
+
+@media screen and (min-width: 915px) {
+  .body {
+    max-width: 140rem;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+  }
+
+  .header__logo {
+    width: 22rem;
+    margin-bottom: 5rem;
+  }
+
+  .body__main {
+    display: flex;
+    text-align: start;
+    margin-bottom: auto;
+  }
+
+  .main__mockups {
+    flex: 1.5;
+    display: block;
+    margin-bottom: auto;
+  }
+  .main__content {
+    flex: 1;
+    padding: 4rem;
+  }
+
+  .content__title {
+    line-height: 5rem;
+    font-size: 3.5rem;
+  }
+  .content__register-btn {
+    margin: 0;
+    width: 40%;
+    transition: var(--color-transition);
+  }
+
+  .footer {
+    margin: 0 0 4rem auto;
+  }
+
+  .footer__link,
+  .link__icon {
+    transition: var(--color-transition);
+  }
+
+  .content__register-btn:hover {
+    background-color: var(--soft-magenta);
+    color: var(--white);
+  }
+  .footer__link:hover,
+  .footer__link:hover .link__icon {
+    border-color: var(--soft-magenta);
+    fill: var(--soft-magenta);
+  }
+}
