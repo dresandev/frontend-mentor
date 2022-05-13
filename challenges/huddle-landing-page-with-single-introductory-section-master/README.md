@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/huddle-landing-page-with-single-introductory-section-master](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/huddle-landing-page-with-single-introductory-section-master)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/huddle-landing-page-with-single-introductory-section-master/](https://javiandres016.github.io/frontend-mentor/challenges/huddle-landing-page-with-single-introductory-section-master/)
 
 ## My process
 

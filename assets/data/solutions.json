@@ -1,11 +1,15 @@
 [
   {
-    "title":"ping-coming-soon-page-master",
-    "screenshot":"challenges/ping-coming-soon-page-master/screenshots/desktop-preview.png"
+    "title": "huddle-landing-page-with-single-introductory-section-master",
+    "screenshot": "challenges/huddle-landing-page-with-single-introductory-section-master/screenshots/desktop-preview.png"
   },
   {
-    "title":"single-price-grid-component-master",
-    "screenshot":"challenges/single-price-grid-component-master/screenshots/desktop-preview.png"
+    "title": "ping-coming-soon-page-master",
+    "screenshot": "challenges/ping-coming-soon-page-master/screenshots/desktop-preview.png"
+  },
+  {
+    "title": "single-price-grid-component-master",
+    "screenshot": "challenges/single-price-grid-component-master/screenshots/desktop-preview.png"
   },
   {
     "title": "3-column-preview-card-component-main",
