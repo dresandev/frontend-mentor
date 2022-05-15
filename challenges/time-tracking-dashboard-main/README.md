@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/time-tracking-dashboard-main](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/time-tracking-dashboard-main)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/time-tracking-dashboard-main/](https://javiandres016.github.io/frontend-mentor/challenges/time-tracking-dashboard-main/)
 
 ## My process
 

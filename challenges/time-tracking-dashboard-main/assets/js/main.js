@@ -1,6 +1,10 @@
 const $ = selector => document.querySelector(selector)
 const $$ = tagName => document.createElement(tagName)
 
+const URL = window.location.host.includes('127.0.0.1')
+  ? '/assets/data/data.json'
+  : '/frontend-mentor/challenges/time-tracking-dashboard-main/assets/data/data.json'
+
 const hours = document.querySelectorAll('.content__hours')
 const metaData = document.querySelectorAll('.content__meta-data')
 const userOptions = $('.user__options')
@@ -8,7 +12,7 @@ const userOptions = $('.user__options')
 let dataFilter = 'Weekly'
 let timeData;
 
-const fetchData = async () => await (await fetch('/assets/data/data.json')).json()
+const fetchData = async () => await (await fetch(URL)).json()
 
 
 document.addEventListener('DOMContentLoaded', async () => {
