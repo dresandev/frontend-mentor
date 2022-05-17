@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/tip-calculator-app-main](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/tip-calculator-app-main)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/tip-calculator-app-main/](https://javiandres016.github.io/frontend-mentor/challenges/tip-calculator-app-main/)
 
 ## My process
 
