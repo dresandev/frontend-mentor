@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#"><img src="assets/images/logo.svg" alt="logo" class="header__logo"></a>
+    <button class="main__hamburger-btn"><img src="assets/images/icon-menu.svg" alt="icon-menu"></button>
+    <div class="container">
+      <nav class="header__nav">
+        <button class="nav__close-btn">
+          <img src="assets/images/icon-close-menu.svg" alt="icon-close-menu">
+        </button>
+
+        <ul class="nav__main">
+          <li class="main__dropdown">
+            <button class="dropdown__btn">Features
+              <svg class="btn__icon" width="10" height="6" xmlns="http://www.w3.org/2000/svg" stroke="#686868"
+                stroke-width="1.5">
+                <path fill="none" d="m1 1 4 4 4-4" />
+              </svg>
+            </button>
+            <ul class="dropdown__options dropdown__options--features">
+              <li class="options__option">
+                <img src="assets/images/icon-todo.svg" alt="icon-todo" class="options__icon">
+                <a href="#" class="nav__link">Todo List</a>
+              </li>
+              <li class="options__option">
+                <img src="assets/images/icon-calendar.svg" alt="icon-calendar" class="options__icon">
+                <a href="#" class="nav__link">Calendar</a>
+              </li>
+              <li class="options__option">
+                <img src="assets/images/icon-reminders.svg" alt="icon-reminders" class="options__icon">
+                <a href="#" class="nav__link">Reminders</a>
+              </li>
+              <li class="options__option">
+                <img src="assets/images/icon-planning.svg" alt="icon-planning" class="options__icon">
+                <a href="#" class="nav__link">Planing</a>
+              </li>
+            </ul>
+          </li>
+          <li class="main__dropdown">
+            <button class="dropdown__btn">Company
+              <svg class="btn__icon" stroke="#686868" stroke-width="1.5" width="10" height="6"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" d="m1 1 4 4 4-4" />
+              </svg>
+            </button>
+            <ul class="dropdown__options dropdown__options--company">
+              <li class="options__option">
+                <a href="#" class="nav__link">History</a>
+              </li>
+              <li class="options__option">
+                <a href="#" class="nav__link">Our Team</a>
+              </li>
+              <li class="options__option">
+                <a href="#" class="nav__link">Blog</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#" class="nav__link">Careers</a></li>
+          <li><a href="#" class="nav__link">About</a></li>
+        </ul>
+
+        <ul class="nav__login">
+          <li><a href="#" class="nav__link nav__link--large">Login</a></li>
+          <li><a href="#" class="nav__link nav__link--register nav__link--large">Register</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="content__hero" role="img" aria-label="Hero image"></div>
+
+
+    <div class="main__content">
+      <h1 class="content__title">Make remote work</h1>
+      <p class="content__desc">
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <a href="#" class="content__btn">Learn more</a>
+    </div>
+
+
+    <section class="main__clients">
+      <h2 class="sr-only">Clients</h2>
+      <img src="assets/images/client-databiz.svg" alt="client-databiz" class="clients__logo">
+      <img src="assets/images/client-audiophile.svg" alt="client-audiophile" class="clients__logo">
+      <img src="assets/images/client-meet.svg" alt="client-meet" class="clients__logo">
+      <img src="assets/images/client-maker.svg" alt="client-maker" class="clients__logo">
+    </section>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
