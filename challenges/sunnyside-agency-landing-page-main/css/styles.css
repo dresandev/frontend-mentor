@@ -368,7 +368,7 @@ li {
     text-align: start;
   }
   .service--complete-bg {
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 25rem 1fr ;
     grid-template-columns: 1fr;
     text-align: center;
   }
