@@ -42,6 +42,14 @@ body {
   --transparent-dark-blue: #141f4c;
 }
 
+.sr-only {
+  overflow: hidden;
+  position: absolute;
+  left: 1rem;
+  font-size: 0.1rem;
+  width: 0.1rem;
+}
+
 .main {
   width: 100%;
   display: -webkit-box;

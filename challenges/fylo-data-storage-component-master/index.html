@@ -12,6 +12,8 @@
 
 <body>
   <main class="main">
+    <h1 class="sr-only">Data Storage</h1>
+
     <div class="options">
       <img src="assets/images/logo.svg" alt="logo" class="options__logo">
       <div class="options__icon">
@@ -27,7 +29,7 @@
 
     <div class="details">
       <p class="details__desc">You've used <span class="strong__text">815 GB</span> of your storage</p>
-      <div role="progressbar" class="details__progress"> </div>
+      <div role="progressbar" aria-label="used storage" class="details__progress"> </div>
       <span class="details__left strong__text">0 GB</span>
       <span class="details__right strong__text">1000 GB</span>
       <div class="details__total">
