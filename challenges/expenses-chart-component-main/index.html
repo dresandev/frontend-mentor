@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="sr-only">Expense Chart</h1>
+
+    <header class="header">
+      <div class="header__balance">
+        <p class="balance__txt">My balance</p>
+        <p class="balance__total">$921.48</p>
+      </div>
+      <img src="assets/images/logo.svg" alt="logo" class="header__logo">
+    </header>
+
+    <section class="spending">
+      <h2 class="spending__title">Spending - Last 7 days</h2>
+
+      <div class="spending__graphic"></div>
+
+      <div class="divider"></div>
+
+      <div class="statistics">
+        <div class="statics__ctr">
+          <p class="statistics__text">Total this month</p>
+          <p class="statistics__total">$478.33</p>
+        </div>
+        <div class="statics__ctr">
+          <p class="statistics__percentage">+2.45%</p>
+          <p class="statistics__text statistics__text--right">from last month</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
