@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/expenses-chart-component-main](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/expenses-chart-component-main)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/expenses-chart-component-main/](https://javiandres016.github.io/frontend-mentor/challenges/expenses-chart-component-main/)
 
 ## My process
 
