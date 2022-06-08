@@ -68,7 +68,7 @@ body {
 }
 
 .spending {
-  padding: 3rem 4rem;
+  padding: 4rem;
   background-color: var(--very-pale-orange);
   border-radius: 2rem;
 }
@@ -81,7 +81,7 @@ body {
   display: flex;
   align-items: flex-end;
   gap: 2rem;
-  margin: 5rem 0;
+  margin: 7rem 0 4rem 0;
 }
 
 .graphic__item {
@@ -130,7 +130,7 @@ body {
 }
 
 .divider {
-  height: 0.1rem;
+  height: 0.3rem;
   width: 100%;
   background-color: var(--cream);
   margin-bottom: 3rem;
