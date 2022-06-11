@@ -56,12 +56,11 @@ h2 {
 }
 
 .sr-only {
-  overflow: hidden;
+  width: 0.1rem;
   position: absolute;
+  font-size: 0.1rem;
+  overflow: hidden;
   left: -1rem;
-  font-size: 0;
-  width: 0;
-  height: 0;
 }
 
 .background {
@@ -213,13 +212,13 @@ h2 {
 .card:active {
   background-color: var(--card-hover-color);
 }
-.card-statistics {
+.card--statistics {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 2rem;
   padding: 2.5rem;
 }
-.card-followers {
+.card--followers {
   flex: 1;
   display: flex;
   flex-direction: column;
