@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Frontend Mentor | Social Media Dashboard</title>
+</head>
+
+<body class="dark-theme">
+  <main class="main">
+    <div class="background"></div>
+    <header class="header">
+      <div>
+        <h1 class="header___title">Social Media Dashboard</h1>
+        <p class="header__followers">Total Followers: 23,004</p>
+      </div>
+      <div class="divider"></div>
+      <div class="header__toggle">
+        <p class="toggle__leading">Dark Mode</p>
+        <input type="checkbox" id="toggle__input" class="toggle__input">
+        <label for="toggle__input" class="toggle__switch"></label>
+      </div>
+    </header>
+    <section class="followers">
+      <article class="card card-followers border-top border-top-blue">
+        <div class="card__user">
+          <img src="assets/images/icon-facebook.svg" alt="icon-facebook" class="user__social-media-icon">
+          <p class="user__name">@nathanf</p>
+        </div>
+        <p class="user__followers-amount">1987</p>
+        <p class="user__followers-text">Followers</p>
+        <div class="followers-amount-ctr">
+          <img src="assets/images/icon-up.svg" alt="icon-up" class="arrow">
+          <p class="followers__amount followers__amount--increment">12 Today</p>
+        </div>
+      </article>
+      <article class="card card-followers border-top border-top-blue">
+        <div class="card__user">
+          <img src="assets/images/icon-twitter.svg" alt="icon-twitter" class="user__social-media-icon">
+          <p class="user__name">@nathanf</p>
+        </div>
+
+        <p class="user__followers-amount">1044</p>
+        <p class="user__followers-text">Followers</p>
+
+        <div class="followers-amount-ctr">
+          <img src="assets/images/icon-up.svg" alt="icon-up" class="arrow">
+          <p class="followers__amount followers__amount--increment">99 Today</p>
+        </div>
+      </article>
+      <article class="card card-followers border-top border-top-rainbow">
+        <div class="card__user">
+          <img src="assets/images/icon-instagram.svg" alt="icon-instagram" class="user__social-media-icon">
+          <p class="user__name">@realnathanf</p>
+        </div>
+
+        <p class="user__followers-amount">11k</p>
+        <p class="user__followers-text">Followers</p>
+
+        <div class="followers-amount-ctr">
+          <img src="assets/images/icon-up.svg" alt="icon-up" class="arrow">
+          <p class="followers__amount followers__amount--increment">1099 Today</p>
+        </div>
+      </article>
+      <article class="card card-followers border-top border-top-red">
+        <div class="card__user">
+          <img src="assets/images/icon-youtube.svg" alt="icon-youtube" class="user__social-media-icon">
+          <p class="user__name">Nathan F</p>
+        </div>
+        <p class="user__followers-amount">8239</p>
+        <p class="user__followers-text">Subscribers</p>
+        <div class="followers-amount-ctr">
+          <img src="assets/images/icon-down.svg" alt="icon-down" class="arrow">
+          <p class="followers__amount followers__amount--decrement">144 Today</p>
+        </div>
+      </article>
+    </section>
+    <section class="overview">
+      <h2 class="overview__title">Overview - Today</h2>
+      <div class="overview__statistics">
+        <article class="card card-statistics">
+          <p class="card__page-text">Page View</p>
+          <img src="assets/images/icon-facebook.svg" alt="icon-facebook" class="card___social-media-icon">
+          <p class="card__followers">87</p>
+          <div class="followers-amount-ctr followers-amount-ctr--bottom">
+            <img src="assets/images/icon-up.svg" alt="icon-up" class="arrow">
+            <p class="followers__amount followers__amount--increment">3%</p>
+          </div>
+        </article>
+        <article class="card card-statistics">
+          <p class="card__page-text">Likes</p>
+          <img src="assets/images/icon-facebook.svg" alt="icon-facebook" class="card___social-media-icon">
+          <p class="card__followers">52</p>
+          <div class="followers-amount-ctr followers-amount-ctr--bottom">
+            <img src="assets/images/icon-down.svg" alt="icon-down" class="arrow">
+            <p class="followers__amount followers__amount--decrement">2%</p>
+          </div>
+        </article>
+        <article class="card card-statistics">
+          <p class="card__page-text">Likes</p>
+          <img src="assets/images/icon-instagram.svg" alt="icon-facebook" class="card___social-media-icon">
+          <p class="card__followers">5462</p>
+          <div class="followers-amount-ctr followers-amount-ctr--bottom ">
+            <img src="assets/images/icon-up.svg" alt="icon-up" class="arrow">
+            <p class="followers__amount followers__amount--increment">2257%</p>
+          </div>
+        </article>
+        <article class="card card-statistics">
+          <p class="card__page-text">Profile Views</p>
+          <img src="assets/images/icon-instagram.svg" alt="icon-facebook" class="card___social-media-icon">
+          <p class="card__followers">52k</p>
+          <div class="followers-amount-ctr followers-amount-ctr--bottom">
+            <img src="assets/images/icon-up.svg" alt="icon-up" class="arrow">
+            <p class="followers__amount followers__amount--increment">1375%</p>
+          </div>
+        </article>
+        <article class="card card-statistics">
+          <p class="card__page-text">Retweets</p>
+          <img src="assets/images/icon-twitter.svg" alt="icon-facebook" class="card___social-media-icon">
+          <p class="card__followers">117</p>
+          <div class="followers-amount-ctr followers-amount-ctr--bottom">
+            <img src="assets/images/icon-up.svg" alt="icon-up" class="arrow">
+            <p class="followers__amount followers__amount--increment">303%</p>
+          </div>
+        </article>
+        <article class="card card-statistics">
+          <p class="card__page-text">Likes</p>
+          <img src="assets/images/icon-twitter.svg" alt="icon-facebook" class="card___social-media-icon">
+          <p class="card__followers">507</p>
+          <div class="followers-amount-ctr followers-amount-ctr--bottom">
+            <img src="assets/images/icon-up.svg" alt="icon-up" class="arrow">
+            <p class="followers__amount followers__amount--increment">553%</p>
+          </div>
+        </article>
+        <article class="card card-statistics">
+          <p class="card__page-text">Likes</p>
+          <img src="assets/images/icon-youtube.svg" alt="icon-facebook" class="card___social-media-icon">
+          <p class="card__followers">107</p>
+          <div class="followers-amount-ctr followers-amount-ctr--bottom">
+            <img src="assets/images/icon-down.svg" alt="icon-down" class="arrow">
+            <p class="followers__amount followers__amount--decrement">19%</p>
+          </div>
+        </article>
+        <article class="card card-statistics">
+          <p class="card__page-text">Total Views</p>
+          <img src="assets/images/icon-youtube.svg" alt="icon-facebook" class="card___social-media-icon">
+          <p class="card__followers">1407</p>
+          <div class="followers-amount-ctr followers-amount-ctr--bottom">
+            <img src="assets/images/icon-down.svg" alt="icon-down" class="arrow">
+            <p class="followers__amount followers__amount--decrement">12%</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>

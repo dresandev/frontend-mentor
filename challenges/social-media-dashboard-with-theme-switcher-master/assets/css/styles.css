@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  transition: background-color 0.25s linear;
+}
+img {
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  max-width: 116rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  box-sizing: inherit;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+h1,
+h2 {
+  margin: 0;
+}
+
+:root {
+  --lime-green: #1db489;
+  --bright-red: #dc414c;
+  --vivid-red: #c4032a;
+  --blue-one: #198ff5;
+  --blue-two: #1ca0f2;
+}
+.dark-theme {
+  --switch-bg: linear-gradient(40deg, #378fe6 0%, #3eda82 80%);
+  --background-color: #1e202a;
+  --background-pattern-color: #1f212e;
+  --card-background-color: #252a41;
+  --caption-text-color: #8b97c6;
+  --text-color: #fff;
+  --card-hover-color: #333a56;
+}
+.light-theme {
+  --switch-bg: #aeb3cb;
+  --background-color: #fafafa;
+  --background-pattern-color: #f5f7ff;
+  --card-background-color: #f0f2fa;
+  --caption-text-color: #63687e;
+  --text-color: #1e202a;
+  --card-hover-color: #e1e3f0;
+}
+
+.background {
+  width: 100%;
+  height: 35%;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--background-pattern-color);
+  border-radius: 0 0 2rem 2rem;
+}
+
+.main {
+  margin: 3.5rem;
+}
+
+.header___title {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2.5rem, 2.8vw, 2.8rem);
+}
+.header__followers {
+  font-weight: 700;
+  color: var(--caption-text-color);
+}
+
+.divider {
+  width: 100%;
+  height: 0.08rem;
+  margin: 3rem 0 2rem 0;
+  background-color: var(--caption-text-color);
+}
+
+.header__toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.toggle__leading {
+  font-weight: 700;
+  color: var(--caption-text-color);
+}
+.toggle__input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+.toggle__input:checked + .toggle__switch::before {
+  transform: translateX(2.4rem);
+}
+.toggle__switch {
+  position: relative;
+  width: 5rem;
+  height: 2.5rem;
+  background: rgb(55, 143, 230);
+  background: var(--switch-bg);
+  border-radius: 5rem;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+.toggle__switch:before {
+  content: '';
+  position: absolute;
+  top: 0.25rem;
+  left: 0.3rem;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--background-color);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.followers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.border-top::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.border-top-blue::before {
+  background-color: var(--blue-one);
+}
+.border-top-rainbow::before {
+  background: linear-gradient(40deg, #fdc468 20%, #df4996 100%);
+}
+.border-top-red::before {
+  background-color: var(--vivid-red);
+}
+
+.card__user,
+.followers-amount-ctr {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.user__name {
+  font-weight: 700;
+  color: var(--caption-text-color);
+  font-size: 1.4rem;
+}
+.user__followers-amount {
+  font-weight: 700;
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+.user__followers-text {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  color: var(--caption-text-color);
+  font-size: 1.2rem;
+}
+
+.followers__amount {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.followers__amount--increment {
+  color: var(--lime-green);
+}
+.followers__amount--decrement {
+  color: var(--bright-red);
+}
+
+.overview__statistics {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  gap: 3rem;
+}
+
+.card {
+  background-color: var(--card-background-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.card:active {
+  background-color: var(--card-hover-color);
+}
+.card-statistics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  padding: 2.5rem;
+}
+.card-followers {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 3rem;
+}
+.card__page-text {
+  font-weight: 700;
+  color: var(--caption-text-color);
+  font-size: 1.4rem;
+}
+
+.followers-amount-ctr--bottom,
+.card___social-media-icon {
+  place-self: end end;
+}
+
+.card__followers {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    place-content: center space-between;
+    margin-bottom: 4rem;
+  }
+  .header__toggle {
+    justify-content: start;
+    gap: 0.5rem;
+    margin-bottom: unset;
+  }
+  .divider {
+    display: none;
+  }
+}
+
+@media (hover: hover) {
+  .card:hover {
+    background-color: var(--card-hover-color);
+  }
+}
