@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/social-media-dashboard-with-theme-switcher-master](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/social-media-dashboard-with-theme-switcher-master)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/social-media-dashboard-with-theme-switcher-master/](https://javiandres016.github.io/frontend-mentor/challenges/social-media-dashboard-with-theme-switcher-master/)
 
 ## My process
 
