@@ -27,15 +27,19 @@
           <span class="price__month-text"> \ month</span>
         </div>
 
-        <input type="range" min="8" max="24" step="4" class="prices__range">
+        <form action="#">
+          <input type="range" min="8" max="24" step="4" class="prices__range" id="prices__range">
+          <label for="prices__range" class="sr-only">Select price range</label>
+        </form>
       </header>
 
       <div class="prices__options">
-        <div class="options__monthly-switch">
+        <form action="#" class="options__monthly-switch">
           <p class="monthly-switch__leading">Monthly Billing</p>
           <input type="checkbox" id="monthly-switch__input" class="monthly-switch__input">
-          <label for="monthly-switch__input" class="monthly-switch__label"></label>
-        </div>
+          <label for="monthly-switch__input" class="monthly-switch__label">Apply Discount</label>
+        </form>
+
         <div class="options__discount">
           <span class="discount__yearly-text">Yearly Billing</span>
           <span class="discount___discount-text">25% discount</span>

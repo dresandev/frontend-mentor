@@ -29,7 +29,11 @@ body {
   background-size: contain;
   color: var(--grayish-blue-text);
 }
+form {
+  width: 100%;
+}
 
+/*shitty names :3*/
 :root {
   --soft-cyan-full-slider-bar: #a5f3eb;
   --strong-cyan-slider-backround: rgb(16, 213, 194);
@@ -199,6 +203,8 @@ body {
   -webkit-appearance: none;
 }
 .monthly-switch__label {
+  font-size: 0.0000001mm;
+  color: transparent;
   position: relative;
   height: 2.5rem;
   width: 5rem;
