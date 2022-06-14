@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+
+<body>
+  <main class="main">
+    <header class="main__header">
+      <h1 class="header__title">Simple, traffic-based pricing</h1>
+      <p class="header__desc">Sign-up for our 30-day trial. No credit card required.</p>
+    </header>
+
+    <section class="main__prices">
+      <h2 class="sr-only">Select price</h2>
+
+      <header class="prices__header">
+        <p class="header__page-views">100K PAGEVIEWS</p>
+        <div class="header__price">
+          <span class="price__amount">$16.00</span>
+          <span class="price__month-text"> \ month</span>
+        </div>
+
+        <input type="range" min="8" max="24" step="4" class="prices__range">
+      </header>
+
+      <div class="prices__options">
+        <div class="options__monthly-switch">
+          <p class="monthly-switch__leading">Monthly Billing</p>
+          <input type="checkbox" id="monthly-switch__input" class="monthly-switch__input">
+          <label for="monthly-switch__input" class="monthly-switch__label"></label>
+        </div>
+        <div class="options__discount">
+          <span class="discount__yearly-text">Yearly Billing</span>
+          <span class="discount___discount-text">25% discount</span>
+          <span class="discount___discount-text discount___discount-text--hidden">-25%</span>
+        </div>
+      </div>
+
+      <footer class="prices__footer">
+        <ul class="footer__details">
+          <li class="details__item">
+            <p class="item__text">Unlimited websites</p>
+          </li>
+          <li class="details__item">
+            <p class="item__text">100% data ownership</p>
+          </li>
+          <li class="details__item">
+            <p class="item__text">Email reports</p>
+          </li>
+        </ul>
+
+        <a href="#" class="price__start-link">Start my trial</a>
+      </footer>
+    </section>
+  </main>
+
+  <script src="assets/js/index.js"></script>
+</body>
+
+</html>
