@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/coding-bootcamp-testimonials-slider-master](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/coding-bootcamp-testimonials-slider-master)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/coding-bootcamp-testimonials-slider-master/](https://javiandres016.github.io/frontend-mentor/challenges/coding-bootcamp-testimonials-slider-master/)
 
 ## My process
 
