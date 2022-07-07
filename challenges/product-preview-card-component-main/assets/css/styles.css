@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(1.35rem, 1.4vw, 1.4rem);
+  box-sizing: inherit;
+  font-family: var(--principal-font);
+  background-color: var(--cream);
+}
+
+:root {
+  --dark-cyan: #3c8067;
+  --cream: #f2ebe3;
+  --very-dark-blue: #1c232b;
+  --dark-grayish-blue: #6c7289;
+  --white: #ffffff;
+  --principal-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Fraunces', serif;
+}
+
+.card {
+  margin: 2rem 1.7rem;
+  max-width: 55rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--white);
+  border-radius: 1rem;
+  color: var(--dark-grayish-blue);
+}
+
+.card__image {
+  flex: 0.58;
+  background: url(../images/image-product-desktop.jpg) no-repeat center center;
+  background-size: cover;
+  border-radius: 1rem 0 0 1rem;
+}
+.card__info {
+  padding: 3rem 1.98rem;
+  flex: 0.45;
+}
+
+.info__product-txt {
+  letter-spacing: 0.4rem;
+  font-size: 1.3rem;
+}
+.info__product-title {
+  font-family: var(--secondary-font);
+  color: var(--very-dark-blue);
+  margin: 2rem 0;
+  line-height: 2.7rem;
+}
+.info__product-desc {
+  margin-bottom: 2rem;
+  line-height: 2.2rem;
+}
+.info__price {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.price__current {
+  font-family: var(--secondary-font);
+  font-size: 3rem;
+  color: var(--dark-cyan);
+}
+.price__old {
+  font-size: 2rem;
+  text-decoration: line-through;
+  font-size: 1.4rem;
+}
+
+.info__button {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  width: 100%;
+  border: none;
+  border-radius: 0.8rem;
+  color: var(--white);
+  background-color: var(--dark-cyan);
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.info__button:active {
+  background-color: #1a4031;
+}
+
+@media (hover: hover) {
+  .info__button:hover {
+    background-color: #1a4031;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .card {
+    height: max-content;
+    flex-direction: column;
+  }
+  .card__image {
+    min-height: 25rem;
+    flex: unset;
+    background: url(../images/image-product-mobile.jpg) no-repeat center top;
+    background-size: cover;
+    border-radius: 1rem 1rem 0 0;
+  }
+}
