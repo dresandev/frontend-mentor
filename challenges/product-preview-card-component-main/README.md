@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/product-preview-card-component-main](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/product-preview-card-component-main)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/product-preview-card-component-main/](https://javiandres016.github.io/frontend-mentor/challenges/product-preview-card-component-main/)
 
 ## My process
 
