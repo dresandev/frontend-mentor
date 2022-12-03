@@ -92,7 +92,7 @@
    width: 8.3rem;
  }
 
- .menu-btn__icon {
+ .nav__menu-btn {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -100,40 +100,40 @@
    height: 1.8rem;
  }
 
- .icon__line {
+ .menu-btn__line {
    width: 100%;
    height: .3rem;
    background-color: #fff;
    border-radius: 3rem;
  }
 
- .icon__line--top {
+ .menu-btn__line--top {
    transition: transform .4s ease;
    transform-origin: top right;
  }
 
- .icon__line--middle {
+ .menu-btn__line--middle {
    transition: transform .2s ease;
  }
 
- .icon__line--bottom {
+ .menu-btn__line--bottom {
    transition: transform .4s ease;
    transform-origin: bottom right;
  }
 
- .menu-btn__icon--open {
+ .nav__menu-btn--open {
    height: 2.4rem;
  }
 
- .icon__line--top-active {
+ .menu-btn__line--top-active {
    transform: rotate(-42deg);
  }
 
- .icon__line--middle-active {
+ .menu-btn__line--middle-active {
    transform: scaleX(0);
  }
 
- .icon__line--bottom-active {
+ .menu-btn__line--bottom-active {
    transform: rotate(42deg);
  }
 

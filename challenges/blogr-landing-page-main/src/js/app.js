@@ -1,7 +1,7 @@
 const $ = selector => document.querySelector(selector)
 const $$ = selector => document.querySelectorAll(selector)
 
-const hamburgerBtn = $('.menu-btn__icon')
+const hamburgerBtn = $('.nav__menu-btn')
 const menu = $('.nav__menu')
 const navMenuMain = $('.menu__main')
 
@@ -20,11 +20,11 @@ optDropdown.forEach((dropdown) => {
 window.onload = () => {
 
   hamburgerBtn.addEventListener('click', () => {
-    hamburgerBtn.classList.toggle('menu-btn__icon--open')
+    hamburgerBtn.classList.toggle('nav__menu-btn--open')
 
-    hamburgerBtn.children[0].classList.toggle('icon__line--top-active')
-    hamburgerBtn.children[1].classList.toggle('icon__line--middle-active')
-    hamburgerBtn.children[2].classList.toggle('icon__line--bottom-active')
+    hamburgerBtn.children[0].classList.toggle('menu-btn__line--top-active')
+    hamburgerBtn.children[1].classList.toggle('menu-btn__line--middle-active')
+    hamburgerBtn.children[2].classList.toggle('menu-btn__line--bottom-active')
 
     menu.classList.toggle('nav__menu--opened')
 

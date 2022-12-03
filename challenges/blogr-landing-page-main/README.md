@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/javiandres016/frontend-mentor/tree/main/challenges/blogr-landing-page-main](https://github.com/javiandres016/frontend-mentor/tree/main/challenges/blogr-landing-page-main)
+- Live Site URL: [https://javiandres016.github.io/frontend-mentor/challenges/blogr-landing-page-main/](https://javiandres016.github.io/frontend-mentor/challenges/blogr-landing-page-main/)
 
 ## My process
 
