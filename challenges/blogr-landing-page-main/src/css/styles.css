@@ -509,13 +509,14 @@
    }
 
    .main {
-     padding-top: 15rem;
-     padding-bottom: 31rem;
+     padding: 0;
    }
 
    .main__features {
      text-align: start;
-     overflow-x: clip;
+     overflow: hidden;
+     padding-top: 15rem;
+     padding-bottom: 19rem;
    }
 
    .features__decoration {
@@ -617,7 +618,7 @@
 
    .footer .container {
      display: flex;
-     justify-content: space-between;
+     justify-content: space-around;
      text-align: start;
    }
 
