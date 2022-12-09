@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/normalize.css">
+  <link rel="stylesheet" href="src/css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Notifications page</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="header__title">Notifications</h1>
+      <span class="header__counter">3</span>
+      <button class="header__all-read">Mark all as read</button>
+    </header>
+
+    <main class="main">
+      <div class="notification notification--unread">
+        <img class="notification__avatar" src="assets/images/avatar-mark-webber.webp" alt="avatar-mark-webber">
+        <p class="notification__desc">
+          <a class="desc__link desc__link--user" href="#">Mark Webber</a>
+          reacted to your recent post
+          <a class="desc__link desc__link--post" href="#">My first tournament today!</a>
+        </p>
+        <span class="desc__date-time">1m ago</span>
+      </div>
+
+      <div class="notification notification--unread">
+        <img class="notification__avatar" src="assets/images/avatar-angela-gray.webp" alt="avatar-angela-gray">
+        <p class="notification__desc">
+          <a class="desc__link desc__link--user" href="#">Angela Gray</a>
+          followed you
+        </p>
+        <span class="desc__date-time">5m ago</span>
+      </div>
+
+      <div class="notification notification--unread">
+        <img class="notification__avatar" src="assets/images/avatar-jacob-thompson.webp" alt="avatar-jacob-thompson">
+        <p class="notification__desc">
+          <a class="desc__link desc__link--user" href="#">Jacob Thompson</a>
+          has joined your group
+          <a class="desc__link desc__link--group" href="#">Chess Club</a>
+        </p>
+        <span class="desc__date-time">1 day ago</span>
+      </div>
+
+      <div>
+        <div class="notification">
+          <img class="notification__avatar" src="assets/images/avatar-rizky-hasanuddin.webp"
+            alt="avatar-rizky-hasanuddin">
+          <p class="notification__desc">
+            <a class="desc__link desc__link--user" href="#">Rizky Hasanuddin</a>
+            sent you a private message
+          </p>
+          <span class="desc__date-time">5 days ago</span>
+        </div>
+        <p class="message">
+          Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+          I'm already having lots of fun and improving my game.
+        </p>
+      </div>
+
+      <div class="notification">
+        <img class="notification__avatar" src="assets/images/avatar-kimberly-smith.webp" alt="avatar-kimberly-smith">
+        <p class="notification__desc">
+          <a class="desc__link desc__link--user" href="#">Kimberly Smith</a>
+          commented on your picture
+        </p>
+        <span class="desc__date-time">1 week ago</span>
+        <img class="notification__picture" src="assets/images/image-chess.webp" alt="image-chess">
+      </div>
+
+      <div class="notification">
+        <img class="notification__avatar" src="assets/images/avatar-nathan-peterson.webp" alt="avatar-nathan-peterson">
+        <p class="notification__desc">
+          <a class="desc__link desc__link--user" href="#">Nathan Peterson</a>
+          reacted to your recent post
+          <a class="desc__link desc__link--post" href="#">5 end-game strategies to increase your win rate</a>
+        </p>
+        <span class="desc__date-time">2 week ago</span>
+      </div>
+
+      <div class="notification">
+        <img class="notification__avatar" src="assets/images/avatar-anna-kim.webp" alt="avatar-anna-kim">
+        <p class="notification__desc">
+          <a class="desc__link desc__link--user" href="#">Anna Kim</a>
+          left the group
+          <a class="desc__link desc__link--group" href="#">Chess Club</a>
+        </p>
+        <span class="desc__date-time">2 week ago</span>
+      </div>
+    </main>
+  </div>
+
+  <script src="src/js/app.js"></script>
+</body>
+
+</html>
