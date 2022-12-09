@@ -57,6 +57,7 @@ body {
   max-width: 68rem;
   background-color: var(--White);
   border-radius: 1.5rem;
+  box-shadow: 0 1rem 1.5rem .8rem #00000009;
 }
 
 .header {
